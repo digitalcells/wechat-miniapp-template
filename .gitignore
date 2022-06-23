@@ -1,0 +1,5 @@
+# ignore the node_modules and it compile folder
+
+node_modules
+
+miniprogram/miniprogram_npm
