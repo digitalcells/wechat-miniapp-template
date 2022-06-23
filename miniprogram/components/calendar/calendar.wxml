@@ -1,0 +1,7 @@
+<view class="calendar">
+    <v-button custom-style="{{Style.Button}}" type="primary" square bind:click="_onDisplay">
+        <m-icon icon="cellphone"></m-icon>
+    </v-button>
+
+    <v-calendar show="{{ show }}" type="range" bind:close="_onClose" bind:confirm="_onConfirm" />
+</view>

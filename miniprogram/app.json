@@ -13,9 +13,11 @@
     "weui" : true
   },
   "usingComponents": {
-      "van-button": "@vant/weapp/button/index",
-      "van-calendar": "@vant/weapp/calendar/index",
+    "m-icon": "weui-miniprogram/icon/icon",
 
-      "mp-icon": "weui-miniprogram/icon/icon"
+    "v-button"  : "@vant/weapp/button/index"  ,
+    "v-calendar": "@vant/weapp/calendar/index",
+
+    "calendar":  "./components/calendar/calendar"
   }
 }

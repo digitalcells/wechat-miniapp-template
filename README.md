@@ -1,4 +1,4 @@
-# Template
+# Wechat MiniAPP Template
 
 ## How to run the template project
 
@@ -18,3 +18,7 @@ select Tools -> Build npm
 
 vant-weapp: https://youzan.github.io/vant-weapp
 weui: https://wechat-miniprogram.github.io/weui
+
+## API Document
+
+the wechat miniapp document link is https://developers.weixin.qq.com/miniprogram/dev/api

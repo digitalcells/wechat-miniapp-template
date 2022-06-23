@@ -49,13 +49,7 @@ Page({
     })
   },
 
-  onDisplay() {
-    this.setData({ show: true });
-  },
-
-  onClose() {
-      this.setData({
-          show: false
-      })
+  onCalendarInput(event: unknown) {
+      console.warn('event', event)
   }
 })

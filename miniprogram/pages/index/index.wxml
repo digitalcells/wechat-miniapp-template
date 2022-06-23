@@ -19,11 +19,5 @@
         </block>
     </view>
 
-    <view class="example-container">
-        <van-button custom-class="button" type="primary" square bind:click="onDisplay">
-            <mp-icon icon="add" color="black" size="{{25}}"></mp-icon>
-        </van-button>
-    </view>
-
-    <van-calendar show="{{ show }}" type="range" bind:close="onClose" bind:confirm="onConfirm" />
+    <calendar bind:input="onCalendarInput" />
 </view>
